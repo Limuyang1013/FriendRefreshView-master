@@ -1,11 +1,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.sw.library.widget.friendrefreshview.FriendRefreshView
+    <com.muyang.friendrefreshview.FriendRefreshView
         android:id="@+id/wrapview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        </com.sw.library.widget.friendrefreshview.FriendRefreshView>
+        android:layout_height="match_parent"></com.muyang.friendrefreshview.FriendRefreshView>
 
 </RelativeLayout>

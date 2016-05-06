@@ -1,4 +1,4 @@
-package com.sw.library.widget.friendrefreshview;
+package com.muyang.friendrefreshview;
 
 /**
  * Created by 李牧羊 on 15/12/19

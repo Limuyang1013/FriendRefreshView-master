@@ -1,8 +1,9 @@
-package com.sw.library.widget.friendrefreshview;
+package com.muyang.friendrefreshview;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private FriendRefreshView mWrapListView;
     private BaseAdapter mListAdapter;
@@ -24,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
         initView();
     }
 
-    private void initView(){
+    private void initView() {
         mListAdapter = new ListAdapter();
         mWrapListView = (FriendRefreshView) findViewById(R.id.wrapview);
         mWrapListView.setAdapter(mListAdapter);
@@ -55,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_start_refresh) {
             mWrapListView.startRefresh();
             return true;
-        }else if (id == R.id.action_end_refresh) {
+        } else if (id == R.id.action_end_refresh) {
             mWrapListView.stopRefresh();
             return true;
         }

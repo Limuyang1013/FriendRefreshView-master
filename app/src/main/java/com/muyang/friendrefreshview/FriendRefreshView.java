@@ -1,4 +1,4 @@
-package com.sw.library.widget.friendrefreshview;
+package com.muyang.friendrefreshview;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -91,7 +91,7 @@ public class FriendRefreshView extends ViewGroup implements OnDetectScrollListen
     private OnRefreshListener mRefreshLisenter;
 
     private AbsListView.OnScrollListener onScrollListener;
-    private com.sw.library.widget.friendrefreshview.OnDetectScrollListener onDetectScrollListener;
+    private OnDetectScrollListener onDetectScrollListener;
 
     /**
      * 把正常情况、正在刷新、正在拖动集合到一个枚举类里面
